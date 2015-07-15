@@ -1,0 +1,127 @@
+@charset "UTF-8";
+body {
+    padding-top: 60px;
+    /*background: #222;*/
+    background: url('../img/bg-baby-pink.jpg');
+    color: #fff;
+    position: relative;
+}
+h2.header {
+    font-family: "UTMDemianKT", Arial, sans-serif;
+    color: #c11441;
+    font-size: 50px;
+    outline-width: 2px;
+    outline-color: #ece9e9;
+    text-shadow: 
+        0px 0px 5px #ffffbe,
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff,
+        1px 1px 5px #888;
+}
+.navbar-brand{
+
+}
+a {
+    color: #333;
+}
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+.container{
+    /*border: 1px solid #000;*/
+}
+.modal {
+    overflow: auto;
+    color: #333;
+}
+#top_menu{
+    background-color: #b9d24f;
+    border-bottom: 1px solid #809D09;
+}
+#top_menu a{
+    font-family: "UTMDemianKT", Arial, sans-serif;
+    color: #627904;
+    font-size: 25px;
+    text-shadow: 0 0 1px #fff;  
+}
+#top_menu a:hover{
+    color: #ffeef4;
+    text-shadow: 0 0 1px #333;
+}
+#wrap_content{
+    padding-bottom: 200px;
+}
+.album_item{
+    margin: 15px 0;
+    text-align: center;
+}
+.album_item>a>img{
+    margin: 0 auto;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: 0 0 10px #333;
+    -moz-box-shadow: 0 0 10px #333;
+    -webkit-box-shadow: 0 0 10px #333;
+    -o-box-shadow: 0 0 10px #333;
+}
+.album_item>a:hover>img{
+    box-shadow: 0 0 10px orange;
+    -moz-box-shadow: 0 0 10px orange;
+    -webkit-box-shadow: 0 0 10px orange;
+    -o-box-shadow: 0 0 10px orange;
+}
+.album_title{
+    margin: 10px 0;
+    height: 44px;
+    overflow: hidden;
+}
+.album_title a{
+    font-size: 15px;
+    color: #af015a;
+    font-weight: bold;
+}
+.album_title a:hover{
+    text-decoration: underline;
+}
+.photo_item{
+    margin: 15px 0;
+    text-align: center;
+    padding: 0;
+}
+.photo_item>a{
+    height: 216px;
+    overflow: hidden;
+    display: block;
+}
+.photo_item>a>img{
+    margin: 0 auto;
+}
+#back_to_top {
+    display: block;
+    background: url('../img/back_to_top.png') no-repeat;
+    width: 38px;
+    height: 38px;
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+}
+.flower_footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ffeef4 url(../img/flowerbg100.png) repeat-x center bottom;
+    height: 190px;
+    width: 100%;
+}
+.comment_fb{
+    background: #ffeef4;
+}
+.social_like{
+    height: 20px;
+    text-align: center;
+}
