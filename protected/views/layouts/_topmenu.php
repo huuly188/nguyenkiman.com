@@ -12,11 +12,8 @@
             <?php
             $this->widget('zii.widgets.CMenu', array(
                 'items' => array(
-//                    array('label' => 'Home', 'url' => array('/site/index')),
-//                    array('label' => 'About', 'url' => array('/site/page', 'view' => 'about')),
-//                    array('label' => 'Contact', 'url' => array('/site/contact')),
                     array('label' => 'Album ảnh', 'url' => array('/album')),
-                    array('label' => 'Video', 'url' => array('/video')),
+//                    array('label' => 'Video', 'url' => array('/video')),
                 ),
                 'htmlOptions' => array(
                     'class' => 'nav navbar-nav',
