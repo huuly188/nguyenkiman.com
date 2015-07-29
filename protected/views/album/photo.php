@@ -1,6 +1,7 @@
 <h2 class="header text-center"><?php echo $albumTitle; ?></h2>
 <div class="social_like">
     <div class="fb-like" data-href="<?php echo Yii::app()->getRequest()->getHostInfo() . Yii::app()->request->requestUri; ?>" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+    <a href="<?php echo Yii::app()->createUrl("album/download/albumid/" . $albumid) ?>" class="download_link" title="Tải Album"><img src="<?php echo Yii::app()->request->baseUrl; ?>/themes/anan1_0/img/download-icon.png" alt="Tải Album" height="20" />Tải Album</a>
 </div>
 <div id="links" class="row">
     <?php
