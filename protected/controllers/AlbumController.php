@@ -71,11 +71,11 @@ class AlbumController extends Controller {
         header('Content-disposition: attachment; filename=' . $fileName . '.zip');
         header('Content-type: application/zip');
         header('Connection: close');
-//        readfile($tmp_file);
-//        if (file_exists($fileName . '.zip'))
-//        {
-//            unlink($fileName . '.zip');
-//        }
+        readfile($tmp_file);
+        if (file_exists($tmp_file))
+        {
+            unlink($tmp_file);
+        }
     }
 
     // Uncomment the following methods and override them if needed
