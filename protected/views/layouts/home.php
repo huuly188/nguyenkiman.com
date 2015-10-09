@@ -22,13 +22,13 @@
         </div>
         <div class="flower_footer"></div>
         <a title="Back to top" href="#top" id="back_to_top"></a>
-        <script src="<?php echo Yii::app()->request->baseUrl; ?>/themes/anan1_0/js/jquery.min.js"></script>
         <!-- Bootstrap JS is not required, but included for the responsive demo navigation and button states -->
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/themes/anan1_0/js/bootstrap.min.js"></script>
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/themes/anan1_0/js/jquery.blueimp-gallery.min.js"></script>
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/themes/anan1_0/js/bootstrap-image-gallery.js"></script>
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/themes/anan1_0/js/countup.js"></script>
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/themes/anan1_0/js/jquery.lazyload.min.js"></script>
+        <script src="<?php echo Yii::app()->request->baseUrl; ?>/themes/anan1_0/js/tinytools.periodselector.min.js"></script>
         <!--<script src="js/demo.js"></script>-->
         <script type="text/javascript">
     $(document).ready(function () {

@@ -12,7 +12,8 @@
 <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/themes/anan1_0/css/bootstrap-image-gallery.css">
 <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/themes/anan1_0/css/styles.css">
 <link rel="shortcut icon" type="image/x-icon" href="<?php echo Yii::app()->request->baseUrl; ?>/themes/anan1_0/img/favicon.ico">
-
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/themes/anan1_0/js/jquery.min.js"></script>
+<link rel=" stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/themes/anan1_0/css/tinytools.periodselector.min.css">
 <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
