@@ -12,7 +12,7 @@
             <?php
             $this->widget('zii.widgets.CMenu', array(
                 'items' => array(
-                    array('label' => 'Album ảnh', 'url' => array('/album')),
+//                    array('label' => 'Album ảnh', 'url' => array('/album')),
 //                    array('label' => 'Video', 'url' => array('/video')),
                 ),
                 'htmlOptions' => array(
