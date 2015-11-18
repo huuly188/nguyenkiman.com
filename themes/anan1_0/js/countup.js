@@ -58,9 +58,9 @@ CountUp.prototype.formatTime = function () {
 CountUp.prototype.updateCounter = function () {
     this.calculate();
     this.formatTime();
-    this.countainer.innerHTML = (this.years !== 0) ? ("<strong>An An Cute</strong> đã được " + "<strong>" + this.years + "</strong> <small>" + (this.years == 1 ? "tuổi" : "tuổi") + "</small>") : "<strong>An An Cute</strong> đã được " +
-            " <strong>" + this.months + "</strong> <small>" + (this.months == 1 ? "tháng" : "tháng") + "</small>" +
-            " <strong>" + this.days + "</strong> <small>" + (this.days == 1 ? "ngày" : "ngày") + "</small>"
+    this.countainer.innerHTML = (this.years !== 0) ? ("<strong>An An Cute</strong> đã được " + "<strong>" + this.years + "</strong> <small>tuổi</small>" + " <strong>" + this.months + "</strong> <small>tháng</small>" + " <strong>" + this.days + "</strong> <small>ngày</small>") : "<strong>An An Cute</strong> đã được " +
+            " <strong>" + this.months + "</strong> <small>tháng</small>" +
+            " <strong>" + this.days + "</strong> <small>ngày</small>"
 //            +
 //            " <strong>" + this.hours + "</strong> <small>" + (this.hours == 1 ? "giờ" : "giờ") + "</small>" +
 //            " <strong>" + this.minutes + "</strong> <small>" + (this.minutes == 1 ? "phút" : "phút") + "</small>" +
