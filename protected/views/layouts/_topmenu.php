@@ -6,13 +6,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo Yii::app()->createUrl("album"); ?>">An An Cute</a>
+            <a class="navbar-brand" href="/">An An Cute</a>
         </div>
         <div class="navbar-collapse collapse">
             <?php
             $this->widget('zii.widgets.CMenu', array(
                 'items' => array(
-//                    array('label' => 'Album ảnh', 'url' => array('/album')),
+                    //array('label' => 'Album ảnh', 'url' => array('/album')),
 //                    array('label' => 'Video', 'url' => array('/video')),
                 ),
                 'htmlOptions' => array(
